@@ -8,9 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.google.android.material.textfield.TextInputLayout;
-
 import org.json.JSONArray;
-
 import java.util.HashMap;
 import java.util.Map;
 
