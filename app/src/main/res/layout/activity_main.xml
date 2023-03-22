@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/green_light">
 
     <EditText
         android:id="@+id/searchField"
@@ -16,7 +17,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:ems="10"
-        android:hint="Enter word"
+        android:hint="Enter word for translation"
         android:imeOptions="actionSearch"
         android:lines="1"
         android:maxLines="1"
@@ -35,7 +36,8 @@
         android:layout_marginTop="130dp"
         android:layout_marginEnd="50dp"
         android:onClick="lookup"
-        android:text="Look Up Word"
+        android:text="Translate Word"
+        android:backgroundTint="@color/purple_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -52,5 +54,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchField" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
